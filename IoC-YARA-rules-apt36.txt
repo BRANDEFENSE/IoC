@@ -1,0 +1,194 @@
+#Hash
+6e0ba1b2e72d9a0682d1cdd27eea3980da04582bdef0080bf22f8809d172e229 (Downloader -Excel)
+d27474625cdc0c3456918edfa58bfaf910c8b98c6168a506ac14afc1a41fb58f (Dropped executable)
+5158C5C17862225A86C8A4F36F054AE2 – Excel document – NHQ_Notice_File.xls
+D2C407C07CB5DC103CD112804455C0DE – Zip archive – tbvrarthsa.zip
+76CA942050A9AA7E676A8D553AEB1F37 – Zip archive – ulhtagnias.zip
+08745568FE3BC42564A9FABD2A9D189F – Crimson Server Version “A”
+03DCD4A7B5FC1BAEE75F9421DC8D876F – Crimson Server Version “B”
+075A74BA1D3A5A693EE5E3DD931E1B56 – Crimson Keylogger
+1CD5C260ED50F402646F88C1414ADB16 – Crimson Keylogger
+CAC1FFC1A967CD428859BB8BE2E73C22 – Crimson Thin Client
+E7B32B1145EC9E2D55FDB1113F7EEE87 – Crimson Thin Client
+F5375CBC0E6E8BF10E1B8012E943FED5 – Crimson Main Client
+4B733E7A78EBD2F7E5306F39704A86FD – Crimson Main Client
+140D0169E302F5B5FB4BB3633D09B48F – Crimson USB Driver
+9DD4A62FE9513E925EF6B6D795B85806 – Crimson USB Driver
+1ED98F70F618097B06E6714269E2A76F – Crimson USB Worm
+F219B1CDE498F0A02315F69587960A18 – Crimson USB Worm
+f66c2e249931b4dfab9b79beb69b84b5c7c4a4e885da458bc10759c11a97108f - LIGHTWEIGHT IMPLANT
+011bcca8feebaed8a2aa0297051dfd59595c4c4e1ee001b11d8fc3d97395cc5c - LIGHTWEIGHT IMPLANT
+5c341d34827c361ba2034cb03dea665a873016574f3b4ff9d208a9760f61b552 - LIGHTWEIGHT IMPLANT
+d9037f637566d20416c37bad76416328920997f22ffec9340610f2ea871522d8 - LIGHTWEIGHT IMPLANT
+124023c0cf0524a73dabd6e5bb3f7d61d42dfd3867d699c59770846aae1231ce - LIGHTWEIGHT IMPLANT
+892a753f31dadf1c6e75f1b72ccef58d29454b9f4d28d73cf7e20d137ce6dd8d - INTERMEDIATE ARTIFACTS
+c828bccfc34f16983f624f00d45e54335804b77dd199139b80841ad63b42c1f3 - INTERMEDIATE ARTIFACTS
+0d3f5ca81f62b8a68647a4bcc1c5777d3e865168ebb365cab4b452766efc5633 - INTERMEDIATE ARTIFACTS
+a0964a46212d50dbbbbd516a8a75c4764e33842e8764d420abe085d0552b5822 - INTERMEDIATE ARTIFACTS
+4162eaeb5826f3f337859996fc7f22442dd9b47f8d4c7cf4f942f666b1016661 - INTERMEDIATE ARTIFACTS
+e3e9bbdaa4be7ad758b0716ee11ec67bf20646bce620a86c1f223fd2c8d43744 - INTERMEDIATE ARTIFACTS
+56f04a39103372acc0f5e9b01236059ab62ea3d5f8236280c112e473672332b1 - INTERMEDIATE ARTIFACTS
+
+
+#Domain
+newsupdates[.]myftp[.]org
+bjorn111[.]duckdns[.]org
+newsbizupdates[.]net
+uronlinestores[.]net
+zoneflare[.]com
+secure256[.]net
+directfileshare[.]net
+dsoi[.]info
+download[.]kavach-app[.]in
+kavach-app[.]in
+otbmail[.]com
+
+#IP
+108[.]62[.]12[.]134
+160[.]20[.]147[.]59
+173[.]249[.]22[.]30
+64[.]188[.]25[.]206
+173[.]212[.]192[.]229
+45[.]77[.]246[.]69
+144[.]91.79.40
+194[.]163.129.89
+200[.]202.100.110
+206[.]215.155.105
+45[.]147.228.195
+5[.]189.170.84
+
+
+ 
+#YARA Rules
+rule TransparentTribe_Malicious_Macro_Jan_2020 {
+    meta:
+      description = "Yara rule for the Transparent Tribe Malicious Macro Jan_2020 "
+      author = "Yoroi - ZLab"
+      last_updated = "2020-02-21"
+      tlp = "white"
+      category = "informational"
+    strings:
+      $a1 = {8B 92 BC BE 87 95 BF BD 83}
+      $a2 = {D6 8C C7 68 D5 8D C0 69 D4 8E}
+	  $b1 = "161,36,31,130,137,165,44,167,244,55,198,100,241"
+    condition:
+      all of them
+}
+
+rule TransparentTribe_PythonStub_Jan_20 {
+    meta:
+      description = "Yara rule for the Transparent Tribe Python Stub Jan_2020 "
+      author = "Yoroi - ZLab"
+      last_updated = "2020-02-21"
+      tlp = "white"
+      category = "informational"
+    strings:
+      $a1 = {70 56 6B 77 86 FB D2 6D 2C}
+      $a2 = {A2 43 F9 97 61 F4 E5 1F D7 02}
+	  $b1 = "bpyexpat.pyd"
+	  $b2 = "bmfc90u.dll"
+	  
+    condition:
+      uint16(0) == 0x5A4D and all of them and filesize > 7MB
+}
+
+rule TransparentTribe_CrimsonRAT_Jan_20 {
+    meta:
+      description = "Yara rule for the Transparent Tribe CrimsonRAT Jan_2020 "
+      author = "Yoroi - ZLab"
+      last_updated = "2020-02-21"
+      tlp = "white"
+      category = "informational"
+    strings:
+      $a1 = {03 06 11 24 03 06 11 20 03}
+      $a2 = {B0 3F 5F 7F 11 D5 0A 3A 04}
+	  $b1 = "SppExtComTel"
+	  
+    condition:
+      uint16(0) == 0x5A4D and all of them and filesize > 7MB
+}
+
+rule TransparentTribe_MaliciousDLLModule_Jan_20 {
+    meta:
+      description = "Yara rule for the Transparent Tribe CrimsonRAT Jan_2020 "
+      author = "Yoroi - ZLab"
+      last_updated = "2020-02-21"
+      tlp = "white"
+      category = "informational"
+    strings:
+      $a1 = {00 F1 01 8D 19 71 00 F1 01 7D 06 71}
+      $a2 = {86 08 4E 03 57 00 59 00 CC}
+	  $a3 = "6f6e6c79706172616e6f696473757276697665" ascii wide
+  	  $a4 = "shemypolandar*kotlin" ascii wide
+	  $b1 = "FC4302A8973108F7B86565D5A49182DED2B0BF31"
+	  $b2 = "PrivateMemorySize64"
+	  $b3 = "Hi0-78LoupIks2jMn" wide
+    condition:
+      uint16(0) == 0x5A4D and (all of ($a*) or all of ($b*)) 
+}
+rule APT_Transparent_Tribe_NET_PE_Jan20_1 {
+   meta:
+      description = "Detect .NET PE file used by APT Transparent_Tribe"
+      author = "Arkbird_SOLG"
+      reference = "https://github.com/StrangerealIntel/CyberThreatIntel/blob/master/Pakistan/APT/Transparent%20Tribe/22-01-20/analysis.md"
+      date = "2020-01-24"
+      hash1 = "d2c46e066ff7802cecfcb7cf3bab16e63827c326b051dc61452b896a673a6e67"
+   strings:
+      $s1 = "lSystem.Resources.ResourceReader, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089#System.Resources.R" ascii
+      $s2 = "ulhtagnias.exe" fullword wide
+      $s3 = "g:\\ulhtagnias\\ulhtagnias\\obj\\Debug\\ulhtagnias.pdb" fullword ascii
+      $s4 = "ulhtagniasdo_process" fullword ascii
+      $s5 = "ulhtagniaslist_processes" fullword ascii
+      $s6 = "ulhtagnias-procl=process|ulhtagnias" fullword wide
+      $s7 = "ulhtagniasget_command" fullword ascii
+      $s8 = "ulhtagniasport" fullword ascii
+      $s9 = "tempStr" fullword ascii
+      $s10 = "ulhtagniasatmps" fullword ascii
+      $s11 = ".exe|ulhtagnias" fullword wide
+      $s12 = "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run|ulhtagnias" fullword wide
+      $s13 = "$recycle.bin|ulhtagnias" fullword wide
+      $s14 = "get_very_sold" fullword ascii
+      $s15 = "documents and settings|ulhtagnias" fullword wide
+      $s16 = "bdss=Bit Defender,onlinent=Q.Heal,bdagent=Bit Defender Agent,msseces=MS Essentials,fssm32=FSecure,avp=Kaspersky,avgnt=Avira,spbb" ascii
+      $s17 = "getByteArray" fullword ascii
+      $s18 = "ulhtagniasfilesLogs" fullword ascii
+      $s19 = "122.200.110.101|ulhtagnias" fullword wide
+      $s20 = "ulhtagniasget_size" fullword ascii
+   condition:
+      uint16(0) == 0x5a4d and filesize < 30000KB and
+      8 of them
+}
+
+rule APT_Transparent_Tribe_Maldoc_Jan20_1 {
+   meta:
+      description = "Detect maldoc file used by APT Transparent_Tribe"
+      author = "Arkbird_SOLG"
+      reference = "https://github.com/StrangerealIntel/CyberThreatIntel/blob/master/Pakistan/APT/Transparent%20Tribe/22-01-20/analysis.md"
+      date = "2020-01-24"
+      hash1 = "2aa160726037e80384672e89968ab4d2bd3b7f5ca3dfa1b9c1ecc4d1647a63f0"
+      hash2 = "1cb726eab6f36af73e6b0ed97223d8f063f8209d2c25bed39f010b4043b2b8a1"
+   strings:
+      $x1 = "*\\G{D1C702E6-4518-48EB-AFC3-58BFFDB8BB9D}#2.0#0#C:\\Users\\Bipin\\AppData\\Local\\Temp\\VBE\\MSForms.exd#Microsoft Forms 2.0 Ob" wide
+      $s2 = "*\\G{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}#2.4#0#C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\OFFICE12\\MSO.DLL#Micr" wide
+      $s3 = "*\\G{0D452EE1-E08F-101A-852E-02608C4D0BB4}#2.0#0#C:\\Windows\\SysWOW64\\FM20.DLL#Microsoft Forms 2.0 Object Library" fullword wide
+      $s4 = "*\\G{000204EF-0000-0000-C000-000000000046}#4.0#9#C:\\PROGRA~2\\COMMON~1\\MICROS~1\\VBA\\VBA6\\VBE6.DLL#Visual Basic For Applicat" wide
+      $s5 = "*\\G{00020430-0000-0000-C000-000000000046}#2.0#0#C:\\Windows\\SysWOW64\\stdole2.tlb#OLE Automation" fullword wide
+      $s6 = "\\AppData" fullword ascii
+      $s7 = "Shell.Application" fullword ascii
+      $s8 = "UserForm1" fullword wide
+      $s9 = "Begin {C62A69F0-16DC-11CE-9E98-00AA00574A4F} UserForm1 " fullword ascii
+      $s10 = "VERSION 5.00" fullword ascii
+      $s11 = "UserForm1=0, 0, 0, 0, C, 52, 52, 1454, 685, C" fullword ascii
+      $s12 = "VBFrame" fullword wide
+      $s13 = "1UserForm1" fullword wide
+      $s14 = "UserForm1)" fullword ascii
+      $s15 = "ShellV" fullword ascii
+      $s16 = "Module1" fullword wide
+      $s17 = "TextBox2" fullword ascii
+      $s18 = "TextBox1" fullword ascii
+      $s19 = "Project1" fullword ascii
+      $s20 = "zip_Mofer_file" fullword ascii
+   condition:
+      ( uint16(0) == 0xcfd0 and filesize < 1000KB and ( 1 of ($x*) and 4 of them )
+      ) or ( all of them )
+}
