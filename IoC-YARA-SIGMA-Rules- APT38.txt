@@ -1,0 +1,475 @@
+#Hashes (MD5)
+
+02f75c2b47b1733f1889d6bbc026157c
+06cd99f0f9f152655469156059a8ea25
+07e13b985c79ef10802e75aadfac6408
+09350e100a4bda4a276fca6a968eb9ea
+09745305cbad67b17346f0f6dba1e700
+09924946b47ef078f7e9af4f4fcb59dc
+09a77c0cb8137df82efc0de5c7fee46e
+0abdaebbdbd5e6507e6db15f628d6fd7
+0be6e64e2310e9a4f5782b9e98cdaf72
+0d022eff24bc601d97d2088b4179bd18
+16a278d0ec24458c8e47672529835117
+17bc6f5b672b7e128cd5df51cdf10d37
+183ad96b931733ad37bb627a958837db
+198760a270a19091582a5bd841fbaec0
+1bfbc0c9e0d9ceb5c3f4f6ced6bcfeae
+1d0e79feb6d7ed23eb1bf7f257ce4fee
+268dca9ad0dcb4d95f95a80ec621924f
+2963cd266e54bd136a966bf491507bbf
+2de01aac95f8703163da7633993fb447
+2ef2703cfc9f6858ad9527588198b1b6
+306310e0d2c0a497d968be1120b05143
+35b07d0eddc357d7c388e819239595b2
+38032a4d12d9e3029f00b120200e8e68
+3b1dfeb298d0fb27c31944907d900c1d
+3f051bb43a168e83c5ad222b324ebf68
+3f326da2affb0f7f2a4c5c95ffc660cc
+459593079763f4ae74986070f47452cf
+474f08fb4a0b8c9e1b88349098de10b1
+48405332ee067cdf29077b317dc7c555
+490c885dc7ba0f32c07ddfe02a04bbb9
+49c2821a940846bdacb8a3457be4663c
+4e1b36182482644f5a377f3351f19118
+4edc5d01076078906032f7299641f412
+50e33e4d9229286e7d49c5b468fef285
+578e5078ccb878f1aa9e309b4cfc2be5
+579e45a09dc2370c71515bd0870b2078
+5c2242b56a31d64b6ce82671d97a82a4
+5d0ffbc8389f27b0649696f0ef5b3cfe
+5ebfe9a9ab9c2c4b200508ae5d91f067
+5fbfeec97e967325af49fa4f65bb2265
+6eec1de7708020a25ee38a0822a59e88
+712a8e4d3ce36d72ff74b785aaf18cb0
+7413f08e12f7a4b48342a4b530c8b785
+7937397e0a31cdc87f5b79074825e18e
+7ead0113095bc6cb3b2d82f05fda25f3
+82a52042008fc8313576bf5d4083abf4
+8387ceba0c020a650e1add75d24967f2
+85d316590edfb4212049c4490db08c4b
+89081f2e14e9266de8c042629b764926
+8b78558ff2731e8f0904f660a02813c0
+8e9c5eca1726511e8710c9692127ca11
+949e1e35e09b25fca3927d3878d72bf4
+954f50301207c52e7616cc490b8b4d3c
+9d1db33d89ce9d44354dcba9ebba4c2d
+9ea365c1714eb500e5f4a749a3ed0fe7
+a27a9324d282d920e495832933d486ee
+ab7e59391ecf059f4394a22faabbbcb0
+ad5485fac7fed74d112799600edb2fbf
+afbcb626b770b1f87ff9b5721d2f3235
+b135a56b0486eb4c85e304e636996ba1
+b9be8d53542f5b4abad4687a891b1c03
+bbd703f0d6b1cad4ff8f3d2ee3cc073c
+c1364bbf63b3617b25b58209e4529d8c
+c4141ee8e9594511f528862519480d36
+c635e0aa816ba5fe6500ca9ecf34bd06
+cb65d885f4799dbdf80af2214ecdc5fa
+ce6e55abfe1e7767531eaf1036a5db3d
+d4b4ba4615c5ff58c766b509c552ec9d
+de991e1dc8de2510127dcf9919f58d8a
+de991e1dc8de2510127dcf9919f58f8a
+e29fe3c181ac9ddbb242688b151f3310
+e62a52073fd7bfd251efca9906580839
+e7aa0237fc3db67a96ebd877806a2c88
+e7fc03267e47814e23e004e5f3a1205b
+e87b575b2ddfb9d4d692e3b8627e3921
+f01624ec3f19b171cee5250eec53ffc2
+f2a0e9034d67f8200993c4fa8e4f5d15
+f31ce3215945b7f5978404eca30bdfc8
+f5e0f57684e9da7ef96dd459b554fded
+f7de7d878835793ae439c5e551597b1e
+fde55de117cc611826db0983bc054624
+
+#Hashes (SHA256)
+
+11b5944715da95e4a57ea54968439d955114088222fd2032d4e0282d12a58abb
+4216f63870e2cdfe499d09fce9caa301f9546f60a69c4032cb5fb6d5ceb9af32
+5098ec21c88e14d9039d232106560b3c87487b51b40d6fef28254c37e4865182
+660e60cc1fd3e155017848a1f6befc4a335825a6ae04f3416b9b148ff156d143
+829eceee720b0a3e505efbd3262c387b92abdf46183d51a50489e2b157dac3b1
+9d18defe7390c59a1473f79a2407d072a3f365de9834b8d8be25f7e35a76d818
+c677a79b853d3858f8c8b86ccd8c76ebbd1508cc9550f1da2d30be491625b744
+f14b1a91ed1ecd365088ba6de5846788f86689c6c2f2182855d5e0954d62af3b
+a75886b016d84c3eaacaf01a3c61e04953a7a3adf38acf77a4a2e3a8f544f855
+25d8ae4678c37251e7ffbaeddc252ae2530ef23f66e4c856d98ef60f399fa3dc
+a4fb20b15efd72f983f0fb3325c0352d8a266a69bb5f6ca2eba0556c3e00bd15
+68e6b9d71c727545095ea6376940027b61734af5c710b2985a628131e47c6af7
+4c3499f3cc4a4fdc7e67417e055891c78540282dccc57e37a01167dfe351b244
+
+#Domains
+
+markettrendingcenter[.]com
+lm-career[.]com
+advantims[.]com
+angeldonationblog[.]com
+codevexillium[.]org
+investbooking[.]de
+krakenfolio[.]com
+opsonew3org[.]sg
+transferwiser[.]io
+transplugin[.]io
+
+#URLs
+
+https[:]//angeldonationblog[.]com/image/upload/upload.php
+https[:]//codevexillium[.]org/image/download/download.asp
+https[:]//investbooking[.]de/upload/upload.asp
+https[:]//transplugin[.]io/upload/upload.asp
+https[:][//www.dronerc](https://www.dronerc/)[.]it/forum/uploads/index.php
+https[:][//www.dronerc](https://www.dronerc/)[.]it/shop_testbr/Core/upload.php
+https[:][//www.dronerc](https://www.dronerc/)[.]it/shop_testbr/upload/upload.php
+https[:][//www.edujikim](https://www.edujikim/)[.]com/intro/blue/insert.asp
+https[:][//www.fabioluciani](https://www.fabioluciani/)[.]com/es/include/include.asp
+http[:]//trophylab[.]com/notice/images/renewal/upload.asp
+http[:][//www.colasprint](https://www.colasprint/)[.]com/_vti_log/upload.asp
+
+#IPs
+
+1.251.44[.]118
+101.0.115[.]80
+103.227.176[.]20
+110.10.189[.]166
+110.45.138[.]98
+112.175.226[.]221
+114.207.112[.]202
+115.23.252[.]233
+118.217.183[.]180
+210.217.137[.]70
+211.115.65[.]71
+211.202.2[.]195
+212.227.91[.]36
+217.69.41[.]33
+31.186.8[.]221
+50.192.28[.]29
+51.68.119[.]230
+51.79.44[.]111
+54.241.91[.]49
+54.39.64[.]114
+
+#YARA and Sigma Rules
+
+#YARA
+
+```jsx
+rule HvS_APT37_smb_scanner {
+   meta:
+      description = "Unknown smb login scanner used by APT37"
+      license = "Detection Rule License 1.1 https://github.com/Neo23x0/signature-base/blob/master/LICENSE"
+      author = "Marc Stroebel"
+      date = "2020-12-15"
+      reference1 = "https://www.hvs-consulting.de/media/downloads/ThreatReport-Lazarus.pdf"
+      reference2 = "https://www.hybrid-analysis.com/sample/d16163526242508d6961f061aaffe3ae5321bd64d8ceb6b2788f1570757595fc?environmentId=2"
+   strings:
+      $s1 = "Scan.exe StartIP EndIP ThreadCount logfilePath [Username Password Deep]" fullword ascii
+      $s2 = "%s - %s:(Username - %s / Password - %s" fullword ascii
+      $s3 = "Load mpr.dll Error " fullword ascii
+      $s4 = "Load Netapi32.dll Error " fullword ascii
+      $s5 = "%s U/P not Correct! - %d" fullword ascii
+      $s6 = "GetNetWorkInfo Version 1.0" fullword wide
+      $s7 = "Hello World!" fullword wide
+      $s8 = "%s Error: %ld" fullword ascii
+      $s9 = "%s U/P Correct!" fullword ascii
+      $s10 = "%s --------" fullword ascii
+      $s11 = "%s%-30s%I64d" fullword ascii
+      $s12 = "%s%-30s(DIR)" fullword ascii
+      $s13 = "%04d-%02d-%02d %02d:%02d" fullword ascii
+      $s14 = "Share:              Local Path:                   Uses:   Descriptor:" fullword ascii
+      $s15 = "Share:              Type:                   Remark:" fullword ascii
+   condition:
+      uint16(0) == 0x5a4d and filesize < 200KB and (10 of them)
+}
+```
+
+```jsx
+rule HvS_APT37_RAT_loader {
+   meta:
+      description = "BLINDINGCAN RAT loader named iconcash.db used by APT37"
+      license = "Detection Rule License 1.1 https://github.com/Neo23x0/signature-base/blob/master/LICENSE"
+      author = "Marc Stroebel"
+      date = "2020-12-15"
+      hash = "b70e66d387e42f5f04b69b9eb15306036702ab8a50b16f5403289b5388292db9"
+      reference1 = "https://www.hvs-consulting.de/media/downloads/ThreatReport-Lazarus.pdf"
+      reference2 = "https://us-cert.cisa.gov/ncas/analysis-reports/ar20-232a"
+   condition:
+      (pe.version_info["OriginalFilename"] contains "MFC_DLL.dll") and
+      (pe.exports("SMain") and pe.exports("SMainW") )
+}
+```
+
+```jsx
+rule HvS_APT37_webshell_img_thumbs_asp {
+   meta:
+      description = "Webshell named img.asp, thumbs.asp or thumb.asp used by APT37"
+      license = "Detection Rule License 1.1 https://github.com/Neo23x0/signature-base/blob/master/LICENSE"
+      author = "Moritz Oettle"
+      date = "2020-12-15"
+      reference = "https://www.hvs-consulting.de/media/downloads/ThreatReport-Lazarus.pdf"
+      hash = "94d2448d3794ae3f29678a7337473d259b5cfd1c7f703fe53ee6c84dd10a48ef"
+   strings:
+      $s1 = "strMsg = \"E : F\"" fullword ascii
+      $s2 = "strMsg = \"S : \" & Len(fileData)" fullword ascii
+      $s3 = "Left(workDir, InStrRev(workDir, \"/\")) & \"video\""
+
+      $a1 = "Server.CreateObject(\"Scripting.FileSystemObject\")" fullword ascii
+      $a2 = "Dim tmpPath, workDir" fullword ascii
+      $a3 = "Dim objFSO, objTextStream" fullword ascii
+      $a4 = "workDir = Request.ServerVariables(\"URL\")" fullword ascii
+      $a5 = "InStrRev(workDir, \"/\")" ascii
+
+      $g1 = "WriteFile = 0" fullword ascii
+      $g2 = "fileData = Request.Form(\"fp\")" fullword ascii
+      $g3 = "fileName = Request.Form(\"fr\")" fullword ascii
+      $g4 = "Err.Clear()" fullword ascii
+      $g5 = "Option Explicit" fullword ascii
+   condition:
+      filesize < 2KB and (( 1 of ($s*) ) or (3 of ($a*)) or (5 of ($g*)))
+}
+```
+
+```jsx
+rule APT_MAL_NK_Lazarus_VHD_Ransomware_Oct20_1 {
+   meta:
+      description = "Detects Lazarus VHD Ransomware"
+      author = "Florian Roth"
+      reference = "https://securelist.com/lazarus-on-the-hunt-for-big-game/97757/"
+      date = "2020-10-05"
+      hash1 = "52888b5f881f4941ae7a8f4d84de27fc502413861f96ee58ee560c09c11880d6"
+      hash2 = "5e78475d10418c6938723f6cfefb89d5e9de61e45ecf374bb435c1c99dd4a473"
+      hash3 = "6cb9afff8166976bd62bb29b12ed617784d6e74b110afcf8955477573594f306"
+   strings:
+      $s1 = "HowToDecrypt.txt" wide fullword
+      $s2 = "rsa.cpp" wide fullword
+      $s3 = "sc stop \"Microsoft Exchange Compliance Service\"" ascii fullword
+
+      $op1 = { 8b 8d bc fc ff ff 8b 94 bd 34 03 00 00 33 c0 50 }
+      $op2 = { 8b 8d 98 f9 ff ff 8d 64 24 00 8b 39 3b bc 85 34 }
+      $op3 = { 8b 94 85 34 03 00 00 89 11 40 83 c1 04 3b 06 7c }
+   condition:
+      uint16(0) == 0x5a4d and
+      filesize < 400KB and
+      2 of them
+}
+```
+
+```jsx
+rule APT_MAL_NK_Lazarus_VHD_Ransomware_Oct20_2 {
+   meta:
+      description = "Detects Lazarus VHD Ransomware"
+      author = "Florian Roth"
+      reference = "https://securelist.com/lazarus-on-the-hunt-for-big-game/97757/"
+      date = "2020-10-05"
+      hash1 = "097ca829e051a4877bca093cee340180ff5f13a9c266ad4141b0be82aae1a39b"
+      hash2 = "73a10be31832c9f1cbbd798590411009da0881592a90feb472e80025dfb0ea79"
+   strings:
+      $op1 = { f9 36 88 08 8d ad fc ff ff ff 66 ff c1 e9 72 86 }
+      $op2 = { c6 c4 58 0f a4 c8 12 8d ad ff ff ff ff 0f b6 44 }
+      $op3 = { 88 02 66 c1 f0 54 8d bf fc ff ff ff 0f ba e0 19 }
+   condition:
+      uint16(0) == 0x5a4d and
+      filesize < 9000KB and
+      all of them
+}
+```
+
+#Sigma Rules
+
+```jsx
+title: Suspicious scheduled task creation
+status: experimental
+description: Detects the creation of scheduled tasks to run anomalous programs
+references:
+    - https://labs.f-secure.com/publications/ti-report-lazarus-group-cryptocurrency-vertical
+    - https://labs.f-secure.com/blog/catching-lazarus-threat-intelligence-to-real-detection-logic-part-two
+author: F-Secure Countercept
+date: 2020/09/25
+level: high
+
+logsource:
+    category: process_creation
+    product: windows
+
+detection:
+    selection1:
+        Image: '*\schtasks.exe'
+    selection2:
+        CommandLine|contains:
+            - 'reg add'
+            - 'reg.exe add'
+    selection3:
+        CommandLine|re: '\s*(-|/)e(n(c(o(d(e(d(c(o(m(m(a(n(d)?)?)?)?)?)?)?)?)?)?)?)?)?\s'
+    selection4:
+        CommandLine|re: '\s*(-|/)ec\s'
+    selection5:
+        CommandLine|re: 's*(-|/)encodeda\s'
+    selection6:
+        CommandLine|re: '\s*(-|/)encodedarguments\s'
+
+    condition: selection1 and (selection2 or selection3 or selection4 or selection5 or selection6)
+
+falsepositives:
+    - Unlikely
+```
+
+```jsx
+title: Disable Windows Defender Credential Guard
+status: experimental
+description: Detects attempt to disable Windows Defender Credential Guard
+references:
+    - https://labs.f-secure.com/publications/ti-report-lazarus-group-cryptocurrency-vertical 
+    - https://docs.microsoft.com/en-us/windows/security/identity-protection/credential-guard/credential-guard-manage
+    - https://labs.f-secure.com/blog/catching-lazarus-threat-intelligence-to-real-detection-logic-part-two
+author: F-Secure Countercept
+date: 2020/09/25
+level: critical
+
+logsource:
+    category: registry_event, process_creation
+    product: windows
+
+detection:
+    selection1:        
+        TargetObject: 'HKLM\System\CurrentControlSet\Control\LSA\LsaCfgFlags'
+        EventType: 
+            - 'SetValue'
+            - 'AddValue'
+        Details: 'DWORD (0x00000000)'
+
+    selection2:
+        Image: '*\reg.exe'
+        CommandLine|contains: 'LsaCfgFlags'
+    
+    condition: selection1 or selection2
+
+falsepositives:
+    - Unlikely
+```
+
+```jsx
+title: Mshta executing VBScript
+status: experimental
+description: Detects suspicious mshta.exe execution of vbscript
+references:
+    - https://labs.f-secure.com/publications/ti-report-lazarus-group-cryptocurrency-vertical 
+    - https://labs.f-secure.com/blog/catching-lazarus-threat-intelligence-to-real-detection-logic 
+author: F-Secure Countercept
+date: 2020/09/25
+level: medium
+
+logsource:
+    category: image_load
+    product: windows
+
+detection:
+    selection:
+        Image: '*\mshta.exe'
+        ImageLoaded: '*\vbscript.dll'
+    condition: selection
+
+falsepositives:
+    - Unknown
+```
+
+```jsx
+title: Powershell disable Windows Defender
+status: experimental
+description: Detects Powershell command used to disable Window Defender
+references:
+    - https://labs.f-secure.com/publications/ti-report-lazarus-group-cryptocurrency-vertical 
+    - https://labs.f-secure.com/blog/catching-lazarus-threat-intelligence-to-real-detection-logic
+author: F-Secure Countercept
+date: 2020/09/25
+level: high
+
+logsource:
+    category: process_creation
+    product: windows
+    
+detection:
+    selection1:
+        Image: '*\powershell.exe'
+        CommandLine|contains:
+            - 'DisableRealtimeMonitoring'
+            - 'DisableBehaviorMonitoring'
+    selection2:
+        ParentImage|re: '.*\\PyCharm.*\\bin\\pycharm64\.exe'
+    selection3:
+        ParentImage|re: '.*\\JetBrains*\\.*\.exe'
+
+    condition: selection1 and not (selection2 or selection3)
+
+falsepositives:
+    - Unlikely after filtering out false positives caused by Jetbrains IDEs
+```
+
+```jsx
+title: Suspicious process from schedule task
+status: experimental
+description: Detects the execution of suspicious process from schedule task
+references:
+    - https://labs.f-secure.com/publications/ti-report-lazarus-group-cryptocurrency-vertical
+    - https://labs.f-secure.com/blog/catching-lazarus-threat-intelligence-to-real-detection-logic-part-two
+author: F-Secure Countercept
+date: 2020/09/25
+level: high
+
+logsource:
+    category: process_creation
+    product: windows
+
+detection:
+    selection1:
+        ParentImage: '*\svchost.exe'
+        CommandLine|contains:
+         - '-k netsvcs -s Schedule' #newer version windows like Windows 10, Server 2016
+         - '-k netsvcs -p -s Schedule' #newer version windows like Windows 10, Server 2016
+    selection2:
+        ParentImage: '*\taskeng.exe' #older version windows like Windows 7, Server 2012
+    selection3:
+        Image:
+         - 'cmd.exe'
+         - 'powershell.exe'
+         - 'reg.exe'
+         - 'wscript.exe'
+         - 'cscript.exe'
+         - 'mshta.exe'
+         - 'python.exe'
+    selection4: #put false positive here
+         CommandLine|contains:
+         - 'hklm\SOFTWARE\Lenovo\SystemUpdatePlugin\scheduler'
+
+    condition: (selection1 OR selection2) AND selection3 AND NOT selection4
+
+falsepositives:
+    - administrative scripts that run regularly in the environment by schedule task.
+```
+
+```jsx
+title: Word document creating anomalous shortcut file
+status: experimental
+description: Detects the creation of anomalous shortcut file by Word document
+references:
+    - https://labs.f-secure.com/publications/ti-report-lazarus-group-cryptocurrency-vertical
+    - https://labs.f-secure.com/blog/catching-lazarus-threat-intelligence-to-real-detection-logic
+author: F-Secure Countercept 
+date: 2020/09/25
+level: high
+
+logsource:
+    category: file_event
+    product: windows
+
+detection:
+    selection1:
+        Image: '*\winword.exe'
+        TargetFileName: '*.lnk'
+    selection2:
+        TargetFileName|contains:
+            - '\Roaming\Microsoft\Office\Recent\'
+            - '\AppData\Roaming\Microsoft\Word\'
+    condition: selection1 and not selection2
+
+falsepositives:
+    - Activity from legitimate macro-enabled Word documents, varies across estates
+```
