@@ -1,0 +1,251 @@
+#Hashes
+
+#Documents exploiting CVE-2017-11882
+
+D1357B284C951470066AAA7A8228190B88A5C7C3
+49DFF13500116B6C085C5CE3DE3C233C28669678
+9DF3F0D8525EDF2B88C4A150134C7699A85A1508
+50A755B30E8F3646F9476080F2C3AE1347F8F556
+50A755B30E8F3646F9476080F2C3AE1347F8F556
+E2D949CF06842B5F7AE6B2DFFAA49771A93A00D9
+
+#SFX archives and OCX droppers
+
+AC10F5B1D5ECAB22B7B418D6E98FA18E32BBDEAB		
+7642F2181CB189965C596964D2EDF8FE50DA742B		
+CD13210A142DA4BC02DA47455EB2CFE13F35804A		
+377FDC842D4A721A103C32CE8CB4DAF50B49F303				
+B4E6DDCD78884F64825FDF4710B35CDBEAABE8E2		
+BD39591A02B4E403A25AAE502648264308085DED		
+B998F1B92ED6246DED13B79D069AA91C35637DEC		
+CC918F0DA51794F0174437D336E6F3EDFDD3CBE4
+83D520E8C3FDAEFB5C8B180187B45C65590DB21A
+EFAC23B0E6395B1178BCF7086F72344B24C04DCC
+8B991D4F2C108FD572C9C2059685FC574591E0BE
+B744878E150A2C254C867BAD610778852C66D50A
+3DFC3D81572E16CEAAE3D07922255EB88068B91D
+77C42F66DADF5B579F6BCD0771030ADC7AEFA97C
+
+#Denis Backdoor
+
+97fdab2832550b9fea80ec1b9c182f5139e9e947		msprivs.exe
+F25d6a32aef1161c17830ea0cb950e36b614280d		WerFault.exe
+1878df8e9d8f3d432d0bc8520595b2adb952fb85		msprivs.exe 
+1a2cd9b94a70440a962d9ad78e5e46d7d22070d0		CiscoEapFast.exe094.exe
+77dd35901c0192e040deb9cc7a981733168afa74		CiscoEapFast.exe
+d48602c3c73e8e33162e87891fb36a35f621b09b		Xwizard.exe
+1fef52800fa9b752b98d3cbb8fff0c44046526aa		SndVolSSO.exe
+
+#Cobalt Strike
+
+230ac0808fde525306d6e55d389849f67fc328968c433a5053d676d688032e6f		Adobe_Flash_Install.rar
+69061e33acb7587d773d05000390f9101f71dfd6eed7973b551594eaf3f04193		Flash_Adobe_Install.exe
+7fd58fa4c9f24114c08b3265d30be5aa8f6519ebd2310cc6956eda6c6e6f56f0		goopdate.dll
+
+#Domains
+
+aliexpresscn[.]net
+andreagahuvrauvin[.]com
+andreagbridge[.]com
+aol.straliaenollma[.]xyz
+beaudrysang[.]xyz
+becreybour[.]com
+byronorenstein[.]com
+chinaport[.]org
+christienoll[.]xyz
+christienollmache[.]xyz
+cloud.360cn[.]info
+dieordaunt[.]com
+dns.chinanews[.]network
+illagedrivestralia[.]xyz
+karelbecker[.]com
+karolinblair[.]com
+lauradesnoyers[.]com
+ntop.dieordaunt[.]com
+office.ourkekwiciver[.]com
+ourkekwiciver[.]com
+sophiahoule[.]com
+stienollmache[.]xyz
+straliaenollma[.]xyz
+ursulapapst[.]xyz
+food.letsmiles[.]org
+help.chatconnecting[.]com
+*.letsmiles[.]org
+support.chatconnecting[.]com
+inbox.mailboxhus[.]com
+blog.versign[.]info
+news.blogtrands[.]net
+stack.inveglob[.]net
+tops.gamecousers[.]com
+nsquery[.]net
+tonholding[.]com
+cloudwsus[.]net
+nortonudt[.]net
+teriava[.]com
+tulationeva[.]com
+vieweva[.]com
+notificeva[.]com
+images.verginnet[.]info
+id.madsmans[.]com
+lvjustin[.]com
+play.paramountgame[.]com
+24.datatimes[.]org
+blog.docksugs[.]org 
+blog.panggin[.]org 
+contay.deaftone[.]com 
+check.paidprefund[.]org 
+datatimes[.]org 
+docksugs[.]org 
+economy.bloghop[.]org 
+emp.gapte[.]name 
+facebook-cdn[.]net 
+gap-facebook[.]com 
+gl-appspot[.]org 
+help.checkonl[.]org 
+high.expbas[.]net 
+high.vphelp[.]net 
+icon.torrentart[.]com 
+images.chinabytes[.]info 
+imaps.qki6[.]com 
+img.fanspeed[.]net 
+job.supperpow[.]com 
+lighpress[.]info 
+menmin.strezf[.]com 
+mobile.pagmobiles[.]info 
+news.lighpress[.]info 
+notificeva[.]com 
+nsquery[.]net 
+pagmobiles[.]info 
+paidprefund[.]org 
+push.relasign[.]org 
+relasign[.]org 
+share[.]codehao[.]net 
+seri.volveri[.]net 
+ssl.zin0[.]com 
+static.jg7[.]org 
+syn.timeizu[.]net 
+ad.jqueryclick[.]com
+api.querycore[.]com
+cdn-js[.]com
+cdn.adsfly[.]co
+cdn.disqusapi[.]com
+cloudflare-api[.]com
+cory.ns.webjzcnd[.]com
+googlescripts[.]com
+health-ray-id[.]com
+hit.asmung[.]net
+jquery.google-script[.]org	
+js.ecommer[.]org
+s.jscore-group[.]com
+s1.gridsumcontent[.]com
+s1.jqueryclick[.]com
+ssl.security.akamaihd-d[.]com
+stat.cdnanalytic[.]com
+stats.widgetapi[.]com
+track-google[.]com
+update.security.akamaihd-d[.]com
+update.webfontupdate[.]com	
+wiget.adsfly[.]co
+www.googleuserscontent[.]org
+timeizu[.]net 
+tonholding[.]com 
+tulationeva[.]com 
+untitled.po9z[.]com 
+update-flashs[.]com 
+vieweva[.]com 
+volveri[.]net 
+vphelp[.]net 
+yii.yiihao126[.]net 
+zone.apize[.]net
+a.doulbeclick[.]org
+ad.adthis[.]org
+teriava[.]com 
+
+#IP Addresses
+
+45.114.117[.]137
+104.24.119[.]185
+104.24.118[.]185
+23.227.196[.]210
+23.227.196[.]126
+184.95.51[.]179
+176.107.177[.]216
+192.121.176[.]148
+103.41.177[.]33
+184.95.51[.]181
+23.227.199[.]121
+108.170.31[.]69
+104.27.167[.]79
+27.102.70[.]211
+103.53.197[.]202
+104.237.218[.]70
+104.237.218[.]72
+185.157.79[.]3
+193.169.245[.]78
+193.169.245[.]137
+23.227.196[.]210
+80.255.3[.]87
+104.27.166[.]79
+176.107.176[.]6
+184.95.51[.]190
+176.223.111[.]116
+110.10.179[.]65
+
+#Rules & Signatures
+
+rule APT32_ActiveMime_Lure {
+  strings:
+    $al= "office_text" wide ascii
+    $a2= "schtasks /create /tn" wide ascii
+    $a3= "scrobj.dll" wide ascii
+    $a4= "new-object net.webclient" wide ascii
+    $a5= "GetUserName" wide ascii
+    $a6= "WSHnet.UserDomain" wide ascii
+    $a7= "WSHnet.UserName" wide ascii
+  condition:
+    4 of them
+}
+
+rule oceanlotus_xor_decode
+{
+    meta:
+      description = "OceanLotus XOR decode function"
+    strings:
+      $xor_decode = { 89 D2 41 8A ?? ?? [0-1] 32 0? 88 ?? FF C2 [0-1] 39 ?A [0-1] 0F 43 D? 			4? FF C? 48 FF C? [0-1] FF C? 75 E3 }
+    condition:
+      $xor_decode
+}
+
+
+rule oceanlotus_constants
+{
+    meta:
+      description = "OceanLotus constants"
+    strings:
+      $c1 = { 3A 52 16 25 11 19 07 14 3D 08 0F }
+      $c2 = { 0F 08 3D 14 07 19 11 25 16 52 3A }
+    condition:
+      any of them
+}
+
+#Snort 
+
+alert http $HOME_NET any -> $EXTERNAL_NET any (msg:"Volex - OceanLotus JavaScript Load (connect.js)"; flow:to_server,established; content:"GET"; http_method; content:"connect.js?timestamp="; http_uri; sid:2017083001; )
+
+alert http $EXTERNAL_NET any -> $HOME_NET any (msg:"Volex - OceanLotus JavaScript Fake Page URL Builder Response"; flow:to_client,established; file_data;content:"{|22|link|22|:|22|http"; depth:13; file_data; content:"|22|load|22|"; sid:2017083002; rev:1;)
+
+alert http $EXTERNAL_NET any -> $HOME_NET any (msg:"Volex - OceanLotus System Profiling JavaScript (linkStorage.x00SOCKET)"; flow:to_client,established; file_data; content:"linkStorage.x00SOCKET"; sid:2017083003;)
+
+alert udp $HOME_NET any -> any 53 (msg:"AV TROJAN OSX/OceanLotus DNS Lookup (shop.ownpro.net)"; content:"|01 00 00 01 00 00 00 00 00 00|"; depth:10; offset:2; content:"|04|shop|06|ownpro|03|net|00|"; nocase; distance:0; fast_pattern; reference:md5,a8a3d82ae821f15bc2a2223a65af75e1; classtype:trojan-activity; sid:9000009; rev:1;)
+
+alert udp $HOME_NET any -> any 53 (msg:"AV TROJAN OSX/OceanLotus DNS Lookup (kiifd.pozon7.net)"; content:"|01 00 00 01 00 00 00 00 00 00|"; depth:10; offset:2; content:"|05|kiifd|06|pozon7|03|net|00|"; nocase; distance:0; fast_pattern; reference:md5,a8a3d82ae821f15bc2a2223a65af75e1; classtype:trojan-activity; sid:9000010; rev:1;)
+
+alert udp $HOME_NET any -> any 53 (msg:"AV TROJAN OSX/OceanLotus DNS Lookup (pad.werzo.net)"; content:"|01 00 00 01 00 00 00 00 00 00|"; depth:10; offset:2; content:"|03|pad|05|werzo|03|net|00|"; nocase; distance:0; fast_pattern; reference:md5,a8a3d82ae821f15bc2a2223a65af75e1; classtype:trojan-activity; sid:90000011; rev:1;)
+
+alert http $HOME_NET any -> $EXTERNAL_NET any (msg:"AV TROJAN OSX/OceanLotus sigstore checkin"; flow:established,to_server; content:"GET"; http_method; content:"/sigstore.db?k="; http_uri; pcre:"/[0-9A-F]{32}$/UR"; reference:md5,a8a3d82ae821f15bc2a2223a65af75e1; classtype:trojan-activity; sid:9000012; rev:1;)
+
+alert tcp $HOME_NET any -> $EXTERNAL_NET 443 (msg:"AV TROJAN OSX/OceanLotus encrypted checkin"; flow:established,to_server; content:"|75 7A 76 7E 1A 1B 1B 1B 1B 1B 5D 59 14 1B|"; within:14; reference:md5,a8a3d82ae821f15bc2a2223a65af75e1; classtype:trojan-activity; sid:9000014; rev:1;)
+
+
+
+
