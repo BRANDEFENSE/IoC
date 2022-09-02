@@ -1,0 +1,35 @@
+#Hashes (MD5/SHA1/SHA256)
+
+0d38f8bf831f1dbbe9a058930127171f24c3df8dae81e6aa66c430a63cbe0509
+9a34909703d679b590d316eb403e12e26f73c8e479812f1d346dcba47b44bc6e
+39c363d01fb5cd0ed3eeb17ca47be0280d93a07dda9bc0236a0f11b20ed95b4c
+80e8defa5377018b093b5b90de0f2957f7062144c83a09a56bba1fe4eda932ce
+391a97a2fe6beb675fe350eb3ca0bc3a995fda43d02a7a6046cd48f042052de5
+506f3b12853375a1fbbf85c82ddf13341cf941c5acd4a39a51d6addf145a7a51
+742489bd828bdcd5caaed00dccdb7a05259986801bfd365492714746cb57eb55
+a56b41a6023f828cccaaef470874571d169fdb8f683a75edd430fbd31a2c3f6e
+b951e30e29d530b4ce998c505f1cb0b8adc96f4ba554c2b325c0bd90914ac944
+c6cf5fd8f71abaf5645b8423f404183b3dea180b69080f53b9678500bab6f0de
+d61af007f6c792b8fb6c677143b7d0e2533394e28c50737588e40da475c040ee
+f9b9d45339db9164a3861bf61758b7f41e6bcfb5bc93404e296e2918e52ccc10
+fd98e75b65d992e0ccc64e512e4e3e78cb2e08ed28de755c2b192e0b7652c80a
+
+
+#YARA Rules
+
+import "pe"
+
+rule Lockbit30{
+	meta:
+		description = "Rule detecting Lockbit 3.0 ransomware samples"
+
+	strings:
+		$s1 = {50 57 E8 [4] 85 C0 75 ?? EB ?? 8D ?? ?? 6A ?? 8D [5] 50 E8 [4] 3D 		           [4] 75 ?? 83 ?? ??}
+
+	condition:
+		uint16(0)==0x5A4D and filesize < 500KB and all of them
+}
+
+Below are links to YARA rules created by other security providers.
+
+https://blogs.blackberry.com/en/2022/08/lockbit-3-0-ransomware-abuses-windows-defender-to-load-cobalt-strike
