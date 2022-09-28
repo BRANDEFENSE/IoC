@@ -1,0 +1,197 @@
+Zebrocy Malware IoCs and YARA Rules
+
+#Hashes (Zebrocy Binary)
+
+48f8b152b86bed027b9152725505fbf4a24a39fd 
+1e9f40ef81176190e1ed9a0659473b2226c53f57 
+bfa26857575c49abb129aac87207f03f2b062e07 
+d697160aecf152a81a89a6b5a7d9e1b8b5e121724038c676157ac72f20364edc 
+cba5ab65a24be52214736bc1a5bc984953a9c15d0a3826d5b15e94036e5497df 
+25f0d1cbcc53d8cfd6d848e12895ce376fbbfaf279be591774b28f70852a4fd8 
+115fd8c619fa173622c7a1e84efdf6fed08a25d3ca3095404dcbd5ac3deb1f03 
+f27836430742c9e014e1b080d89c47e43db299c2e00d0c0801a2830b41b57bc1 
+5b5e80f63c04402d0b282e95e32155b2f86cf604a6837853ab467111d4ac15e2 
+dd7e69e14c88972ac173132b90b3f4bfb2d1faec15cca256a256dd3a12b6e75d 
+6ad3eb8b5622145a70bec67b3d14868a1c13864864afd651fe70689c95b1399a 
+5173721f3054b92e6c0ff2a6a80e4741aa3639bc1906d8b615c3b014a7a1a8d7 
+61a1f3b4fb4dbd2877c91e81db4b1af8395547eab199bf920e9dd11a1127221e 
+6ad3eb8b5622145a70bec67b3d14868a1c13864864afd651fe70689c95b1399a 
+9a0f00469d67bdb60f542fabb42e8d3a90c214b82f021ac6719c7f30e69ff0b9 
+b41480d685a961ed033b932d9c363c2a08ad60af1d2b46d4f78b5469dc5d58e3 
+c91843a69dcf3fdad0dac1b2f0139d1bb072787a1cfcf7b6e34a96bc3c081d65 
+e5aece694d740ebcb107921e890cccc5d7e8f42471f1c4ce108ecb5170ea1e92 
+a442135c04dd2c9cbf26b2a85264d31a5ac4ec5d2069a7b63bc14b64a6dd82b7 
+0be114fe30ef5042890c17033b63d7c9e0363972fcc15a61433c598dd33f49d1 
+2631f95e9a46c821a701269a76b15bb065764cc15a0b268a4d1eac045975c9b8 
+f36a0ee7f4ec23765bb28fbfa734e402042278864e246a54b8c4db6f58275662 
+61c2e524dcc25a59d7f2fe7eff269865a3ed14d6b40e4fea33b3cd3f58c14f19 
+6449d0cb1396d6feba7fb9e25fb20e9a0a5ef3e8623332844458d73057cf04a1
+
+#Hashes (Zebrocy DDE Documents)
+
+85da72c7dbf5da543e10f3f806afd4ebf133f27b6af7859aded2c3a6eced2fd5 
+8cf3bc2bf36342e844e9c8108393562538a9af2a1011c80bb46416c0572c86ff 
+f1e2bceae81ccd54777f7862c616f22b581b47e0dda5cb02d0a722168ef194a5 
+86bb3b00bcd4878b081e4e4f126bba321b81a17e544d54377a0f590f95209e46 
+2da5a388b891e42df4ed62cffbc167db2021e2441e6075d651ecc1d0ffd32ec8 
+0d7b945b9c912d205974f44e3742c696b5038c2120ed4775710ed6d51fbc58ef 
+fc69fb278e12fc7f9c49a020eff9f84c58b71e680a9e18f78d4e6540693f557d 
+ed8f52cdfc5f4c4be95a6b2e935661e00b50324bee5fe8974599743ccfd8daba 
+b9f3af84a69cd39e2e10a86207f8612dd2839873c5839af533ffbc45fc56f809
+
+#Hashes (Zebrocy Delivery Documents)
+
+2cfc4b3686511f959f14889d26d3d9a0d06e27ee2bb54c9afb1ada6b8205c55f 
+abfc14f7f708f662046bfcad81a719c71a35a8dc5aa111407c2c93496e52db74 
+c20e5d56b35992fe74e92aebb09c40a9ec4f3d9b3c2a01efbe761fa7921dd97f 
+40318f3593bca859673827b88d65c5d2f0d80a76948be936a60bda67dff27be9 
+5749eb9d7b8afa278be24a4db66f122aeb323eaa73a9c9e52d77ac3952da5e7d 
+af77e845f1b0a3ae32cb5cfa53ff22cc9dae883f05200e18ad8e10d7a8106392 
+34bdb5b364358a07f598da4d26b30bac37e139a7dc2b9914debb3a16311f3ded 
+79bd5f34867229176869572a027bd601bd8c0bc3f56d37443d403a6d1819a7e5 
+77ff53211bd994293400cb3f93e3d3df6754d8d477cb76f52221704adebad83a 
+
+#Zebrocy C2 URL
+
+hxxp://supservermgr[.]com/sys/upd/pageupd.php
+hxxp://188.241.58[.]170/local/s3/filters.php
+hxxps://200.122.181[.]25/catalog/products/books.php
+hxxp://188.241.58[.]170/local/s3/filters.php
+hxxp://185.203.118[.]198/en_action_device/center_correct_customer/drivers-i7-
+x86.php
+hxxp://145.249.105[.]165/resource-store/stockroom-center-service/check.php
+hxxp://109.248.148[.]42/agr-enum/progress-inform/cube.php
+http://45.124.132[.]127/action-center/centerforserviceandaction/service-and-
+action.php
+hxxps://support-cloud[.]life/managment/cb-secure/technology.php
+hxxps://www.xbhp[.]com/dominargreatasianodyssey/wp-
+content/plugins/akismet/style.php
+hxxps://www.c4csa[.]org/includes/sources/felims.php
+
+#User Agent
+
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; .NET CLR
+2.0.50727; .NET CLR 3.0.04506.30; .NET CLR 3.0.04506.648; InfoPath.1)
+Mozilla/5.0 (Windows NT 6.1; WOW64) WinHttp/1.6.3.8 (WinHTTP/5.1) like Gecko
+Mozilla v5.1 (Windows NT 6.1; rv:6.0.1) Gecko/20100101 Firefox/6.0.1
+
+#IP
+
+185.25.51[.]198
+185.25.50[.]93
+220.158.216[.]127
+92.114.92[.]102
+86.106.131[.]177
+
+#Remote Template (DDE) URL
+
+hxxp://188.241.58[.]170/live/owa/office.dotm
+hxxp://185.203.118[.]198/documents/Note_template.dotm
+hxxp://185.203.118[.]198/documents/Note_template.dotm
+hxxp://145.249.105[.]165/doc/temp/release.dotm
+hxxp://145.249.105[.]165/messages/content/message_template.dotm
+hxxp://188.241.58[.]170/version/in/documents.dotm
+hxxp://109.248.148[.]42/officeDocument/2006/relationships/templates.dotm
+hxxp://109.248.148[.]42/office/thememl/2012/main/attachedTemplate.dotm
+
+
+#YARA Rules
+
+rule apt_RU_delphocy_encStrings {
+strings:
+$enc_keylogger2 = "5B4241434B53504143455D" ascii wide
+$enc_keylogger3 = "5B5441425D" ascii wide
+$enc_keylogger4 = "5B53484946545D" ascii wide
+$enc_keylogger5 = "5B434F4E54524F4C5D" ascii wide
+$enc_keylogger6 = "5B4553434150455D" ascii wide
+$enc_keylogger7 = "5B454E445D" ascii wide
+$enc_keylogger8 = "5B484F4D455D" ascii wide
+$enc_keylogger9 = "5B4C4546545D" ascii wide
+$enc_keylogger10 = "5B55505D" ascii wide
+$enc_keylogger11 = "5B52494748545D" ascii wide
+$enc_keylogger12 = "5B444F574E5D" ascii wide
+$enc_keylogger13 = "5B434150534C4F434B5D" ascii wide
+$cnc1 =
+"68747470733A2F2F7777772E786268702E636F6D2F646F6D696E6172677265
+6174617369616E6F6479737365792F77702D636F6E74656E742F706C7567696E
+732F616B69736D65742F7374796C652E706870" ascii wide
+$cnc2 =
+"68747470733A2F2F7777772E63346373612E6F72672F696E636C756465732F7
+36F75726365732F66656C696D732E706870" ascii wide
+condition:
+uint16(0) == 0x5a4d and (any of ($cnc*) or all of ($enc_keylogger*))
+}
+
+
+
+rule apt_RU_Delphocy_Maldocs {
+strings:
+$required1 = "_VBA_PROJECT" ascii wide
+$required2 = "Normal.dotm" ascii wide
+$required3 = "bin.base64" ascii wide
+$required4 = "ADODB.Stream$" ascii wide
+$author1 = "Dinara Tanmurzina" ascii wide
+$author2 = "Hewlett-Packard Company" ascii wide
+$specific = "Caption = "wininition.exe"" ascii wide
+$builder1 = "Begin {C62A69F0-16DC-11CE-9E98-00AA00574A4F} UserForm1"
+$builder2 = "{02330CFE-305D-431C-93AC-29735EB37575}{33D6B9D9-9757-485A-
+89F4-4F27E5959B10}" ascii wide
+$builder3 = "VersionCompatible32="393222000"" ascii wide
+$builder4 = "CMG="1517B95BC9F7CDF7CDF3D1F3D1"" ascii wide
+$builder5 =
+"DPB="ADAF01C301461E461EB9E2471E616F01D06093C59A7C4D30F64A51BD
+EDDA98EC1590C9B191FF"" ascii wide
+$builder6 = "GC="4547E96B19021A021A02"" ascii wide
+condition:
+uint32(0) == 0xE011CFD0 and all of ($required*) and (all of ($author*) or $specific or
+5 of ($builder*))
+}
+
+
+rule zebrocy_binary_detection {
+strings:
+$s1 =
+"4D6F7A696C6C612076352E31202857696E646F7773204E5420362E313B20727
+63A362E302E3129204765636B6F2F32303130303130312046697265666F782F36
+" ascii
+/* hex encoded string 'Mozilla v5.1 (Windows NT 6.1; rv:6.0.1) Gecko/20100101
+Firefox/6' */
+$s2 =
+"57686572652077617320616E206572726F72206F70656E696E67207468697320
+646F63756D656E742E205468652066696C652069732064616D6167656420616
+E" ascii
+/* hex encoded string 'Where was an error opening this document. The file is
+damaged an' */
+$s3 =
+"4D6F7A696C6C612076352E31202857696E646F7773204E5420362E313B20727
+63A362E302E3129204765636B6F2F32303130303130312046697265666F782F36
+" ascii
+/* hex encoded string 'Mozilla v5.1 (Windows NT 6.1; rv:6.0.1) Gecko/20100101
+Firefox/6.0.1' */
+$s4 = "weatherinfo.exe" fullword ascii
+$s5 = "5072672073746172743A20" ascii /* hex encoded string 'Prg start: ' */
+$s6 = "57656174686572496E666F" ascii /* hex encoded string 'WeatherInfo' */
+$s7 = "72656D6F7465" ascii /* hex encoded string 'remote' */
+$s8 = "636F756C64206E6F742062652072657061697265642E" ascii
+/* hex encoded string 'could not be repaired.' */
+$s9 = "41646F6265204163726F626174" ascii
+/* hex encoded string 'Adobe Acrobat' */
+$s10 = "6669786564" ascii /* hex encoded string 'fixed' */
+$s11 = "2C20467265652073697A653A20" ascii /* hex encoded string ', Free size: ' */
+$s12 = "72656D6F7661626C65" ascii /* hex encoded string 'removable' */
+$s13 = "2C20546F74616C2073697A653A20" ascii
+/* hex encoded string ', Total size: ' */
+$s14 = "5043204E616D653A20" ascii /* hex encoded string 'PC Name: ' */
+$s15 =
+"57686572652077617320616E206572726F72206F70656E696E67207468697320
+646F63756D656E742E205468652066696C652069732064616D6167656420616
+E" ascii
+/* hex encoded string 'Where was an error opening this document. The file is
+damaged and' */
+$s16 = "http://220.158.216.127/search-sys-update-release/base-sync/db7749ID.php"
+fullword ascii
+$s17 = "ProxyPassword<" fullword ascii
+condition:
+uint16(0) == 0x5a4d and filesize < 2000KB and
+8 of them
+}
