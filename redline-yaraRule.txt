@@ -1,0 +1,30 @@
+# YARA RULE
+
+rule detect_redlinestealer
+{
+	meta:
+		unpacked_hash= "32f02983aee882d0b7a04d1c16db805f24e51b210cb1864d730f2
+		2715c60119c"
+	strings:
+		$chr0 = "Opera GXhttps://api.ipify.org" wide ascii
+		$chr1 = "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall"
+		wide ascii
+		$chr2 = "Software\\Valve\\SteamLogin Data" wide ascii
+		$chr3 = "SOFTWARE\\WOW6432Node\\Clients\\StartMenuInternet" wide ascii
+		$chr4 = "SOFTWARE\\Clients\\StartMenuInternet" wide ascii
+		$chr5 = "SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion" wide ascii
+		$chr6 = "https://ipinfo.io/ip%appdata%\\" wide ascii
+
+		$opt0 = "BCryptGetProperty" wide ascii
+		$opt1 = "BCryptSetProperty" wide ascii
+		$opt2 = "BCryptCloseAlgorithmProvider" wide ascii
+		$opt3 = "BCryptDestroyKey" wide ascii
+		$opt5 = "SELECT * FROM Win32_Processor" wide ascii
+		$opt6 = "SELECT * FROM Win32_VideoController" wide ascii
+		$opt7 = "SELECT * FROM Win32_DiskDrive" wide ascii
+		$opt8 = "SELECT * FROM Win32_OperatingSystem" wide ascii
+		$opt9 = "{0}\\FileZilla\\recentservers.xml" wide ascii
+		$opt10 = "{0}\\FileZilla\\sitemanager.xml" wide ascii
+	condition:
+		all of them
+}
