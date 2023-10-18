@@ -1,0 +1,30 @@
+C2 Domains
+\item securebiz[.]org 
+    \item znpst[.]top 
+IP Addresses
+\item 13.69.239.72:443
+    \item 162.0.217.254:443
+    \item 20.44.220.42:443
+    \item 173.223.113.164:443
+    \item 52.152.110.14:443
+URLs
+\item hxxp[:]//securebiz[.]org/fhsgtsspen6/get.php
+    \item hxxps[:]//api.2ip.ua/geo.json
+    \item hxxp[:]//znpst[.]top/dl/build2.exe
+    \item hxxp[:]//securebiz[.]org/files/1/build3.exe
+
+
+rule detect_stop    
+    {
+    meta:
+        description = "Detect Stop/Djvu Payload"
+        hash = "adeb345ba0d60fecdb0823d0cb713c933900ecb545025ec8cc3f442d844af24b"
+    strings:
+        $hex1 = {68 ?? ?? 50 00 6A 00 6A 00 FF 15 ?? C1 4C 00 A3 ?? 32 51 00}
+        $hex2 = {68 ?? 03 50 00 8D 85 ?? ?? FF FF}
+        $hex3 = {68 ?? 71 4D 00 68 ?? 07 46 00 E8 ?? F8 00 00 83 C4 24 C3}
+        $hex4 = {66 89 46 28 83 7E 24 08 72 0B FF 76 10 E8 ?? ?? ?? ??}
+    condition:
+        all of them
+    }
+
