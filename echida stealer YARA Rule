@@ -1,0 +1,19 @@
+#echida stealer YARA Rule
+
+rule echida_stealer {
+    meta:
+        author = "batcain_"
+        source = "brandefense .io"
+        date = "18.09.2023"
+        hash = "276cdb84c5db9d081f107c821a4b28e3b7749a0924a8445d0c021de6fbac72a4 "
+        reference = "https://twitter.com/ViriBack/status/1698693553168236869"
+    strings:
+        $str1 = "/receive_bot.php" wide ascii
+        $str2 = "/connect_bot.php" wide ascii
+        $str3 = "/command_bot.php?hwid =" wide ascii
+        $str4 = "data=" wide ascii
+        $str5 = "(*)" wide ascii
+        $str6 = "Windows Unknown" wide ascii
+    condition:
+        (all of ($str*))
+}
