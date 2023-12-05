@@ -1,0 +1,53 @@
+## Mystic Stealer YARA Rule ## 
+
+rule mystic_stealer_v1{
+    meta:
+      author = "@batcain_"
+      source = "brandefense .io"
+      date = "10.07.2023"
+    strings:
+      $hex4 = {FF B4 24 ?? 0F 00 00 8B CA 8D 84 24 ?? 01 00 00 FF B4
+      24 ?? 0F 00 00 C1 E9 02 FF B4 24 ?? 0 F 00 00 F3 A5 FF B4 24 ??
+      0F 00 00 8B CA FF B4 24 ?? 0F 00 00 83 E1 03 FF B4 24 ?? 0F 00
+      00 F3 A4 55 50 53 53 FF B4 24 ?? 0 F 00 00 E8 ?? ?? 00 00}
+  condition:
+    all of them and filesize <300 KB
+}
+
+
+
+## Mystic Stealer IoCs ##
+
+# Sample C2
+164.132.200[.]171
+
+
+# V1.2 Panels
+109.248.206.137
+116.202.233.49
+137.206.248.109
+142.132.201.228
+142.93.11.96
+167.235.34.144
+188.40.116.251
+193.233.48.167
+212.113.106.114
+34.88.245.41
+5.188.87.45
+5.196.93.222
+5.42.94.125
+5.75.183.169
+64.52.80.55
+89.23.107.241
+91.121.118.80
+94.130.164.47
+94.130.165.48
+94.130.216.165
+95.216.32.74
+
+
+# Other Hashes
+47439044a81b96be0bb34e544da881a393a30f0272616f52f54405b4bf288c7c
+39d3532ffb7565aa79bd6ae6f510ecc7ac29ed7cd0a98a7b948c10162c5c25c0
+8eebef1167ba58681276502fdba907ce5f63d5bbbf68b887b2cc1b2dd4bbc177
+4c5bbf836913bccd7d8a18ea3ac742057b14fc739b05502e74d389e36fa829bb
