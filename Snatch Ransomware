@@ -1,0 +1,22 @@
+## Snatch Ransomware Yara Rule ##
+
+rule snatch_ransomware {
+    meta:
+      author = "@reita"
+      source = "brandefense.io"
+      date = "29.09.2023"
+    strings:
+      $hex_1 = {65 48 8B 0C 25 28 00 00 00 48 8B 89 00 00 00 00
+      48 8D 44 24 A8 48 3B 41 10 ?? ?? 6B 07 00 00 ?8 81 EC D8
+      00 00 00 48 89 AC 24 ?? 00 00 00}
+  condition:
+      all of them
+}
+
+
+
+## IoC Table - Other Samples ##
+
+17fad4b7ddf31e503ede4435c120e53515680b1852f1744afafc101496e0bc28
+91fe89eafca829107a5e80c6f7e875d72dbbfde7441961d6168709f5a42b4553 
+cb141f7346b20cf67b80b5f05ec27fffba0e83cc74b33c091a01c96f27a2a514
