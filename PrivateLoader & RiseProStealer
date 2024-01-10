@@ -1,0 +1,67 @@
+## Command and Control Server (C2) ##
+
+91.92.253[.]38:50500
+
+
+## RisePro Stealer Samples ##
+
+e514d7d13c028cecbd4d19420cdb3a2345fe465a15898cac56d6c7cf1b4ff65d 
+744ab2a17f6e344cdc68857fefd34a260190232f2ccf6abc0cfff384ddfdbbf1 
+a4777a3ded57bd63276a3e643246b70c4dbf5a0a8a10d90dbbbd16632db35b3e
+663ac2dbef285f91657e7a01bf6cb12d6c4eeeaf9da22cd02073aec3eb28aa7d
+46fdd9e0c1cde9c5efa8b263797cff2f61635e8a41548196ad9c1ffff4c1d8d3
+63923ddec78975702788299c1f7cb5345cd6c61387ecdf3553cbdffcc8aa426c
+15ba6bbaae85e3ead46c3b50d4258f5773adae37a460d600cde4ddd302640cd7 
+6b697a1ac25b3fed6764ba1331137fc393410abde0eab06f2c4bc7f2d8e58cb2
+4d123b8ccc8b2766aece71141956eeea42903e300fad185bb4df0424aa44c2b8 
+88a40354963fb6aa908467e10aac5330ac9c0a336231049fabaa9025e4b6c8b3 
+a5c1d205b1c84e4caeb970fd91eb2aa6b258129f6205fb072ab008591cbde171
+1e3049492f9b9e0b802a914c8b5af04eccc3a071fdaaf1e1dfc8e1935140d749 
+ffa958fe03a58562c2d6b1b2d3ba16773288debcbb0b2916c59e4dc4ebf7e991
+60c37c94bd241e5051160d7cbe3c82b48c00d268a4f82aa4bf16ec996d659522
+7128ab5a4c3db4d596f4d977bcbeaf5ce367b7efa39c6ca7de35a90b9d303c77 
+5d9624a59073aba58a140b0d5deca3d2219b3e46f70ed0f259c7d2fb2af55e93 
+b4150e362c8702bd95967bfd52ba56aa39410113918859abf013b5cf6f4070b0 
+a0663410ada3b7867fc3b8b6161377820250e7b6d1996d8930e54e7404818981 
+8e45552ac88812688433b2a91f86287d4c120a1e2256138a21270a579b2256dc 
+a03f06bb0e92723cda6487f2de329316e5bf0152c575cebec2f0a016dcadfeaf
+
+
+## YARA Rules ##
+
+rule MAL_RisePro_x86_WIN_Stealer_Unpacked_Dec28_1{ 
+      meta:
+        author = "@reita" 
+        source = "brandefense.io" 
+        date =	"28.12.2023" 
+    strings:
+    $str1 = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+    (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+    $hex1 = {C7 45 D8 ?? ?? ?? ?? C7 45 DC ?? ?? ?? ?? 8B 45 D8 8B 4D DC 89 85 80 FE FF FF 89 8D 84 FE FF FF C7 45 D8 ?? 4? ?? ?? C7 45 DC ??
+    ?? ?? ??} 
+    condition:
+      all of them and filesize >= 1600KB and filesize <= 1700KB
+}
+
+
+rule MAL_PrivateLoader_x86_WIN_Dropper { 
+      meta:
+        author = "Gokhan FIRAT" 
+        source = "brandefense.io" 
+        date	= "21.08.2023" 
+  strings:
+    $h1 = {E8 9C FC FF FF 8B 3D 74 10 40 00 33 F6 8D 64 24 00 FF D7 83 FE 26
+      75 05 E8 64 FD FF FF 46 81 FE ?? ?? ?? ?? 7C EB}
+    $h2 = {C7 45 F8 ?? 00 00 00 00 83 45 F8 ?? 8B 0D 80 B0 8F 00 8B C7 C1 E0
+      04 89 45 FC 83 F9 0C 75 44}
+    $h3 = {8B 4D F8 8B D7 D3 EA 8D 04 3B 89 45 F0 C7 05 18 A6 8F 00 ?? ?? ??
+      ?? 03 55 DC 8B 45 F0 31 45 FC 33 55 FC 89 55 F0 8B 45 F0 83 45 F4 ?? 29
+      45 F4 83 6D F4 ?? 83 3D 80 B0 8F 00 ?? 75 16}
+    $h4 = {8B 45 F4 C1 E0 ?? 89 45 FC 8B 45 D8 01 45 FC 8B 55 F4 8B 4D F8 8B
+      C2 D3 E8 8B 4D FC 8D 34 13 81 C3 ?? ?? ?? ?? 03 45 E0 33 C6 33 C8 2B F9
+      83 6D E8 ?? 89 4D FC 0F 85}
+  condition:
+    uint16(0) == 0x5A4D and
+    2 of ($h*)
+}
+
