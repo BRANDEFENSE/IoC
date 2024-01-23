@@ -1,0 +1,44 @@
+## Indicator of Compromises ##
+
+gotham.community
+gothamcommunity.online
+gothamcommunity.com
+gothamproject.org
+gothamxproject.com
+
+
+40.66.40.98
+5.178.111.75
+45.131.2.208
+
+44476e9a63d352e5311ace04cfa3ddff8ce22b0a187ded70b4bfd1e8354b31e6
+58d84e754185bd0e6cb06010d3750ee8e261de9d13013ff0d158902af8432cc2
+9f925da352a1563930405a7b11b3c52a3a905a59898a480bd80352d6bd5cfca1
+96a29f12a55d2bba11ec76ea309f88b4be871f35591c741056d4272da5c06a3e
+1672f5073ed2d78d16711e0f02df3fb0de8285f5559791ee73851fa9745ed8db
+1e10a6588da6c59f2ba3710ba35ee2acab920cbaaa594342e99301dc14688a4d
+287d986e191dcd949940812b681fa20f031ac8efdc117cc1b6849a55b87fd3b1
+e0ec53001d556f1fb1d8a2806f1013824eeb823d61f0e1fd0a965f42fe1f389b
+
+
+
+## YARA Rule ##
+
+rule MAL_WIN_x64_Stealer_Gotham {
+	meta:
+		description = "Detects Gotham Stealer malicious node-dpapi module"
+		author = "https://x.com/batcain_"
+		source = "brandefense.io"
+		date = "2024 -01 -05"
+	strings:
+		$str1 = "protectData" wide ascii
+		$str2 = "FFDecrypt" wide ascii
+		$str3 = "ScreenShot" wide ascii
+		$str4 = "ScreenClick" wide ascii
+		$str5 = "GOTHAM_CRYPTER" wide ascii
+		$str6 = "TRY_TO_DECRYPT_ME_XD" wide ascii
+		$str7 = "TaskMgr . exe" wide ascii nocase
+		$str8 = "ProcessHider.dll" wide ascii
+	condition:
+		all of them and filesize < 3 MB
+}
